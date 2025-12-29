@@ -17,6 +17,32 @@
         .qr-container { background:#fff; padding:20px; border-radius:10px; display:inline-block; }
         .whatsapp-btn { background:#25D366; width:70px; height:70px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(0,0,0,0.6); }
         footer { background:#111; padding:40px 0; margin-top:auto; border-top:1px solid #333; }
+        .telegram-btn {
+    background: #0088cc;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 30px; /* same livechat feel */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    gap: 8px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.telegram-btn i {
+    font-size: 22px;
+}
+
+.telegram-btn span {
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.telegram-btn:hover {
+    background: #00aaff;
+    color: #fff;
+}
+
     </style>
 </head>
 <body>
@@ -24,7 +50,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="https://dtx.club">DTX.club</a>
+        <a class="navbar-brand fw-bold fs-3" href="https://dtxclub.netlify.app">DTX.club</a>
     </div>
 </nav>
 
@@ -76,17 +102,19 @@
     </div>
 </section>
 
-<!-- WhatsApp Float Button -->
-<a href="https://wa.me/2347025652576?text=Hello%20DTX.club!%20I%20just%20made%20payment%20for%20membership.%20Here%20is%20my%20proof:" 
-   class="whatsapp-btn position-fixed bottom-0 end-0 m-4" target="_blank">
-    <i class="bi bi-whatsapp fs-1 text-white"></i>
+<a href="https://t.me/dtxclub?text=Hello%2C%20I%20here%20is%20my%20on%20receipt:"
+   class="telegram-btn position-fixed bottom-0 end-0 m-4 d-flex align-items-center"
+   target="_blank">
+    <i class="bi bi-telegram"></i>
+    <span>Chat now</span>
 </a>
+
 
 <!-- Footer -->
 <footer class="text-center">
     <div class="container">
-        <p>&copy; 2025 DTX.club • Elite Wealth Education • All Rights Reserved</p>
-        <p><a href="https://dtx.club" class="text-light">Back to Home</a></p>
+        <p>&copy; 2025 DTX.club • Learn & Make money • All Rights Reserved</p>
+        <p><a href="https://dtxclub.netlify.app" class="text-light">Back to Home</a></p>
     </div>
 </footer>
 
